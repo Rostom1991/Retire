@@ -60,7 +60,15 @@ function Navbar() {
             duration={500}>
             Team
           </Link>
-          <Link>Contact</Link>
+          <Link
+            className="cursor-pointer hover:text-blue-700"
+            to="contact"
+            spy={true}
+            smooth={true}
+            offset={-70}
+            duration={500}>
+            Contact
+          </Link>
         </ul>
       </div>
       <div className="hidden md:flex">
@@ -122,6 +130,15 @@ function Navbar() {
               duration={500}
               className="hover:text-green-500 cursor-pointer">
               Team
+            </Link>
+            <Link
+              className="cursor-pointer hover:text-green-500"
+              to="contact"
+              spy={true}
+              smooth={true}
+              offset={-70}
+              duration={500}>
+              Contact
             </Link>
           </ul>
         </div>

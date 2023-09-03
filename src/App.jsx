@@ -1,4 +1,5 @@
 import About from "./components/About";
+import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 import Hero from "./components/Hero";
 import Localisation from "./components/Localisation";
@@ -15,6 +16,7 @@ function App() {
       <Localisation />
       <Services />
       <Team />
+      <Contact />
       <Footer />
     </div>
   );

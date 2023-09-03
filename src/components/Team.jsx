@@ -48,10 +48,10 @@ function Team() {
               needs of each resident, we make them feel at VIRIDIS like at home.
               This is through our team, which consists of two main teams:
             </p>
-            <div className="flex justify-center gap-36 items-center w-full pt-12">
+            <div className="flex justify-center lg:gap-36 gap-16 items-center w-full pt-12">
               <div className="flex items-center justify-center gap-4">
                 <img
-                  className="w-[4rem]"
+                  className="lg:w-[4rem] w-[3rem]"
                   src={administration}
                   alt="administration"
                 />
@@ -60,7 +60,7 @@ function Team() {
                 </h1>
               </div>
               <div className="flex items-center justify-center gap-4">
-                <img className="w-[4rem]" src={hotel} alt="hotel" />
+                <img className="lg:w-[4rem] w-[3rem]" src={hotel} alt="hotel" />
                 <h1 className=" text-xl font-semibold font-['Roboto'] text-blue-950">
                   Hotel
                 </h1>
@@ -77,10 +77,10 @@ function Team() {
       </div>
       <section className=" w-11/12 gap-24 flex flex-col mx-auto lg:mt-0 mt-20  h-screen">
         <div className=" grid place-items-center gap-20">
-          <h1 className="text-blue-950 lg:text-5xl text-3xl uppercase underline tracking-wide font-normal decoration-2 ">
+          <h1 className="text-blue-950 lg:text-5xl text-3xl uppercase underline tracking-wide font-bold decoration-2 ">
             Administration
           </h1>
-          <div className="grid lg:grid-cols-5 grid-cols-2 gap-16">
+          <div className="grid lg:grid-cols-5 grid-cols-2 gap-4 lg:gap-16">
             <div className="flex flex-col items-center gap-2">
               <div className="w-[9rem] ring-2 ring-gray-300 hover:bg-blue-950 cursor-pointer transition-colors duration-500 ease-in-out bg-gray-100 p-8 rounded-full">
                 <img src={director} alt="director" />
@@ -118,11 +118,11 @@ function Team() {
           </div>
         </div>
         <div className="lg:h-[50vh] h-screen grid place-items-center gap-10 px-12">
-          <h1 className="text-blue-950 text-3xl lg:text-5xl uppercase font-normal tracking-wide underline decoration-2">
+          <h1 className="text-blue-950 text-3xl lg:text-5xl uppercase font-bold tracking-wide underline decoration-2">
             Hotel
           </h1>
-          <div className="grid lg:grid-cols-4 grid-cols-3 gap-x-24 gap-y-8">
-            <div className="flex flex-col items-center gap-2">
+          <div className="grid lg:grid-cols-4 items-center justify-center grid-cols-2 lg:gap-x-24 gap-8 gap-y-8">
+            <div className="flex flex-col items-center  gap-4">
               <div className="w-[9rem] ring-2 ring-gray-300 bg-gray-600 cursor-pointer transition-colors duration-500 ease-in-out hover:bg-gray-100 p-8 rounded-full">
                 <img src={doctor} alt="doctor" />
               </div>
@@ -167,7 +167,7 @@ function Team() {
                 <img src={bones} alt="director" />
               </div>
               <span className="font-bold text-blue-950">
-                Orthopedic (for children)
+                Orthopedic (Children)
               </span>
             </div>
             <div className="flex flex-col items-center gap-2">
