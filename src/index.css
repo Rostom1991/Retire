@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: "PT Serif", serif;
+  /* font-family: "Roboto", sans-serif; */
+}
+.back2 {
+  height: 100%;
+  width: 100%;
+  clip-path: polygon(0% 0%, 100% 0%, 0% 100%, 0 90%);
+  background-color: rgba(73, 86, 143, 0.13);
+  position: absolute;
+  z-index: -1;
+}
