@@ -3,7 +3,6 @@ import { useTranslation } from "react-i18next";
 import logo from "../assets/Nimg/altenLogo.png";
 import arrow from "../assets/Nimg/arrow.svg";
 import france from "../assets/Nimg/france.svg";
-import italy from "../assets/Nimg/italy.svg";
 import uk from "../assets/Nimg/uk.svg";
 import germany from "../assets/Nimg/germany.svg";
 
@@ -36,7 +35,12 @@ function Navbar() {
           offset={-70}
           duration={500}
           className="  w-[8rem]  h-[8rem]  ">
-          <img className="w-full h-full cursor-pointer " src={logo} alt="" />
+          <img
+            loading="lazy"
+            className="w-full h-full cursor-pointer "
+            src={logo}
+            alt=""
+          />
         </Link>
       </div>
       <div className="hidden md:flex">
@@ -92,7 +96,7 @@ function Navbar() {
           </Link>
         </ul>
       </div>
-      <div className="hidden md:flex gap-6 ">
+      <div className="hidden md:flex gap-6">
         <Link
           className="cursor-pointer hover:text-blue-700"
           to="joinUs"
@@ -104,9 +108,9 @@ function Navbar() {
             {t("join")}
           </button>
         </Link>
-        <div className="flex w-max items-center justify-center gap-2  relative">
+        <div className="flex w-max items-center justify-center gap-1  relative">
           <img className="w-[2rem] text-blue-500" src={call} alt="call" />
-          <a href="tel:+123-456-789">+123-456-789</a>
+          <a href="tel:+123-456-789">+216-52-530-163</a>
         </div>
 
         <div className="relative m-auto ">
@@ -120,9 +124,7 @@ function Navbar() {
                   ? uk
                   : selectedLang === "fr"
                   ? france
-                  : selectedLang === "de"
-                  ? germany
-                  : italy
+                  : germany
               }
               alt=""
             />
@@ -131,9 +133,7 @@ function Navbar() {
                 ? "EN"
                 : selectedLang === "fr"
                 ? "FR"
-                : selectedLang === "de"
-                ? "DE"
-                : "IT"}
+                : "DE"}
             </span>
             <img className="w-[1rem] rotate-180" src={arrow} alt="" />
           </div>
@@ -161,12 +161,6 @@ function Navbar() {
               <img className="w-[1.5rem]" src={germany} alt="" />
               <span>German</span>
             </div>
-            {/* <div
-              onClick={() => changeLanguage("it")}
-              className="flex items-center gap-2 hover:bg-gray-200 p-3 cursor-pointer">
-              <img className="w-[1.5rem]" src={italy} alt="" />
-              <span>Italian</span>
-            </div> */}
           </div>
         </div>
       </div>
@@ -194,7 +188,7 @@ function Navbar() {
               offset={-70}
               duration={500}
               className="hover:text-green-500 cursor-pointer">
-              Home
+              {t("home")}
             </Link>
             <Link
               activeClass="active"
@@ -203,8 +197,8 @@ function Navbar() {
               smooth={true}
               offset={-70}
               duration={500}
-              className="hover:text-green-500 cursor-pointer">
-              About
+              className="hover:text-green-500 cursor-pointer w-[5rem] ">
+              {t("about")}
             </Link>
             <Link
               activeClass="active"
@@ -214,7 +208,7 @@ function Navbar() {
               offset={-70}
               duration={500}
               className="hover:text-green-500 cursor-pointer">
-              Services
+              {t("services")}
             </Link>
             <Link
               activeClass="active"
@@ -224,7 +218,7 @@ function Navbar() {
               offset={-70}
               duration={500}
               className="hover:text-green-500 cursor-pointer">
-              Team
+              {t("team")}
             </Link>
             <Link
               className="cursor-pointer hover:text-green-500"
@@ -233,7 +227,7 @@ function Navbar() {
               smooth={true}
               offset={-70}
               duration={500}>
-              Contact
+              {t("contact")}
             </Link>
             <div className="">
               <Link
@@ -244,13 +238,13 @@ function Navbar() {
                 offset={-70}
                 duration={500}>
                 <button className="rounded-full bg-green-500  px-8 py-2 w-max text-white font-normal hover:bg-blue-950 transition-colors duration-500 ease-in-out">
-                  Join Us
+                  {t("join")}
                 </button>
               </Link>
             </div>
-            <div className="flex w-max items-center justify-center gap-2  relative">
+            <div className="flex w-max items-center justify-center gap-1  relative">
               <img className="w-[2rem] text-blue-500" src={call} alt="call" />
-              <span className="">+123-456-789</span>
+              <span className="">+216-52-530-163</span>
             </div>
           </ul>
           <section className="w-full mt-2">

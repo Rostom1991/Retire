@@ -1,12 +1,15 @@
-import { motion, AnimatePresence, animate, easeInOut } from "framer-motion";
+import { motion, easeInOut } from "framer-motion";
 import location from "../assets/Nimg/location.svg";
-import djerba1 from "../assets/Nimg/djerba1.jpg";
-import djerba2 from "../assets/Nimg/Djerba2.webp";
-import djerba3 from "../assets/Nimg/djerba3.jpg";
 import nextPic from "../assets/Nimg/nextPic.svg";
 import { useState } from "react";
 import { useTranslation } from "react-i18next";
 function Localisation() {
+  const djerba1 =
+    "https://news.gnet.tn/wp-content/uploads/2022/11/25339-share-image.jpg";
+  const djerba2 =
+    "https://res.cloudinary.com/lastminute-contenthub/s--Du5hQ761--/c_limit,h_999999,w_1920/f_auto/q_auto:eco/v1/DAM/Photos/Destinations/Africa/Tunisia/Djerba/eyeem-100000360-142868749";
+  const djerba3 =
+    "https://cf.bstatic.com/xdata/images/hotel/max1024x768/308647036.jpg?k=bb758ed6422540d40bf4ef767496e6ce205c6dbd5e938a424be137dcd19dc1ed&o=&hp=1";
   const { t } = useTranslation();
   const images = [djerba1, djerba2, djerba3];
   const [currentImage, setCurrentImage] = useState(0);

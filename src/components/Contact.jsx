@@ -48,7 +48,7 @@ function Contact() {
   return (
     <div
       name="contact"
-      className=" bg-zinc-100 py-52 md:py-0  md:mt-52 mt-[10rem]  ">
+      className=" bg-zinc-100 py-60 md:py-0  md:mt-52 mt-[10rem]  ">
       <section className="grid md:grid-cols-2  place-content-center h-screen w-full items-start gap-16">
         <div className="flex flex-col lg:w-11/12 lg:mx-auto pl-8 lg:pl-24 gap-6">
           <h1 className="md:text-6xl text-5xl px-4 max-w-xl">
@@ -57,13 +57,13 @@ function Contact() {
           <p className=" text-gray-500 ">{t("interested")}</p>
           <div className="flex flex-col gap-2">
             <span className="text-4xl font-semibold  text-blue-950">
-              +123-456-7890
+              +216 52 530 163
             </span>
-            <span className="text-[1.1rem] font-normal text-gray-700 ">
+            {/* <span className="text-[1.1rem] font-normal text-gray-700 ">
               www.reallygreatsite.com
-            </span>
-            <span className="text-[1.1rem] font-normal text-gray-700 ">
-              hello@reallygreatsite.com
+            </span> */}
+            <span className="text-[1.3rem] font-normal  text-blue-700 ">
+              careers@viridis-it.com
             </span>
           </div>
           <div className="md:w-full w-1/3 h-1/2">
