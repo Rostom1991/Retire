@@ -2,8 +2,12 @@
 @tailwind components;
 @tailwind utilities;
 
+.shadow-left-right {
+  box-shadow: -6px 0px 30px -5px rgba(112, 138, 138, 0.863),
+    -6px 0px 30px -5px rgba(112, 138, 138, 0.863);
+}
 body {
-  font-family: "PT Serif", serif;
+  font-family: "Baloo 2" "PT Serif", "Roboto";
   /* font-family: "Roboto", sans-serif; */
 }
 .back2 {

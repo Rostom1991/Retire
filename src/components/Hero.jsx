@@ -1,5 +1,8 @@
 import { motion } from "framer-motion";
+import { Link } from "react-scroll";
+import { useTranslation } from "react-i18next";
 function Hero() {
+  const { t } = useTranslation();
   return (
     <div
       name="hero"
@@ -9,31 +12,34 @@ function Hero() {
           initial={{ x: "-200vw" }}
           animate={{ x: 0 }}
           transition={{ duration: 1, delay: 0.5 }}
-          className="bg-green-500 font-normal rounded-full py-2 px-4 text-sm font-['Roboto'] text-white">
-          Welcome To The Best Retirement Home
+          className="bg-green-500 font-normal rounded-full py-2 px-4 text-sm text-white">
+          {t("welcome")}
         </motion.span>
         <motion.h1
           initial={{ x: "-200vw" }}
           animate={{ x: 0 }}
           transition={{ duration: 1 }}
-          className="lg:text-7xl text-6xl font-bold max-w-md text-white">
-          Love & Care <sup className=" text-xl mr-2 font-light">For</sup>
-          <span className="text-blue-400">Seniors</span>{" "}
+          className="lg:text-[4rem] text-6xl font-bold max-w-2xl text-white">
+          {t("love")} <br />{" "}
+          <sup className=" text-xl mr-2 font-light">{t("for")}</sup>
+          <span className="text-blue-400">{t("seniors")}</span>{" "}
         </motion.h1>
         <motion.p
           initial={{ x: "+500vw" }}
           animate={{ x: 0 }}
           transition={{ duration: 1 }}
-          className="text-white text-sm font-['Roboto']">
-          Most Carefull House In Senior Care
+          className="text-orange-200 text-sm font-['Roboto']">
+          {t("house")}
         </motion.p>
-        <motion.button
-          initial={{ x: "+500vw" }}
-          animate={{ x: 0 }}
-          transition={{ duration: 1 }}
-          className=" hover:bg-blue-700 transition duration-500 ease-in-out rounded-full bg-blue-500  font-normal py-4 px-12 text-white">
-          Get Started
-        </motion.button>
+        <Link to="joinUs" spy={true} smooth={true} offset={-70} duration={1000}>
+          <motion.button
+            initial={{ x: "+500vw" }}
+            animate={{ x: 0 }}
+            transition={{ duration: 1 }}
+            className=" hover:bg-blue-700 transition duration-500 ease-in-out rounded-full bg-blue-500  font-medium py-4 px-12 text-white">
+            {t("start")}
+          </motion.button>
+        </Link>
       </div>
     </div>
   );

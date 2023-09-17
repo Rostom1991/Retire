@@ -7,8 +7,3 @@ export default {
   },
   plugins: [require("daisyui")],
 };
-
-// module.exports = {
-//   //...
-//   plugins: [require("daisyui")],
-// };
