@@ -22,7 +22,7 @@ function Contact() {
   const submitContact = async (e) => {
     e.preventDefault();
     await axios
-      .post("http://localhost:5000/contacts", user)
+      .post("https://fair-teal-bison-tutu.cyclic.cloud/contacts", user)
       .then((response) => {
         console.log(response.data);
         setTimeout(() => {

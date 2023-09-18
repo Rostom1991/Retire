@@ -19,7 +19,7 @@ function Subscribe() {
   const handleSubmit = async (e) => {
     e.preventDefault();
     await axios
-      .post("http://localhost:5000/patients", patient)
+      .post("https://fair-teal-bison-tutu.cyclic.cloud/patients", patient)
       .then(() => {
         setName("");
         setEmail("");
