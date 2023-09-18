@@ -31,7 +31,7 @@ function Services() {
             {t("it's difficult")}
           </h1>
         </div>
-        <div className="grid lg:grid-cols-3 md:py-8  w-4/5 mx-auto gap-16 lg:h-[70rem] h-[150rem] ">
+        <div className="grid lg:grid-cols-3 md:py-8 md:place-items-center gap-12 w-5/6 mx-auto  md:gap-12 lg:h-[70rem] h-[145rem] ">
           {/* CARD */}
           <div className=" ring-2 ring-white/50  rounded-full overflow-hidden lg:w-[25rem] lg:h-[25rem] w-[20rem] h-[20rem]flex items-start cursor-pointer   hover:scale-[1.02] hover:bg-blend-overlay hover:bg-black/30 transition-all duration-500 ease-in-out bg-cover bg-[url('https://images.pexels.com/photos/6663571/pexels-photo-6663571.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1')]  flex flex-col  shadow-2xl shadow-gray-700">
             <div className="flex-col flex gap-16 items-center w-full h-full justify-start bg-opacity-40">
