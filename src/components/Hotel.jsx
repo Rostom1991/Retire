@@ -15,13 +15,13 @@ function Hotel() {
             <div className="h-[25rem] rounded-xl overflow-hidden shadow-left-right">
               <img
                 loading="lazy"
-                className="h-full w-full rounded-xl transition-transform transform object-cover hover:scale-110 cursor-pointer duration-700"
-                src="https://images.pexels.com/photos/4342352/pexels-photo-4342352.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                className="h-full  rounded-xl transition-transform hover:scale-110  transform object-cover cursor-pointer duration-700"
+                src="https://media.istockphoto.com/id/522880423/photo/confident-businesswoman.jpg?s=612x612&w=0&k=20&c=o8rNEJ1HqKCparvOxThIyifO-n66cUZ22TrI7iMxbbw="
                 alt="director"
               />
             </div>
             <div className="flex flex-col items-center">
-              <h2 className="text-blue-950 text-sm font-bold">Jane Doe</h2>
+              <h2 className="text-blue-950 text-sm font-bold">Salma Hamemi</h2>
               <h1 className="text-gray-700 text-xl font-thin">
                 {t("director")}
               </h1>
@@ -37,7 +37,7 @@ function Hotel() {
               />
             </div>
             <div className="flex flex-col items-center">
-              <h2 className="text-blue-950 text-sm font-bold">John Doe</h2>
+              <h2 className="text-blue-950 text-sm font-bold">Mohamed Weli</h2>
               <h1 className="text-gray-700 text-xl font-thin">
                 {t("interim")}
               </h1>
@@ -53,7 +53,9 @@ function Hotel() {
               />
             </div>
             <div className="flex flex-col items-center">
-              <h2 className="text-blue-950 text-sm font-bold">Jane Doe</h2>
+              <h2 className="text-blue-950 text-sm font-bold">
+                Asma Ben Salah
+              </h2>
               <h1 className="text-gray-700 text-xl font-thin">{t("hrd")}</h1>
             </div>
           </div>
@@ -67,7 +69,9 @@ function Hotel() {
               />
             </div>
             <div className="flex flex-col items-center">
-              <h2 className="text-blue-950 text-sm font-bold">John Doe</h2>
+              <h2 className="text-blue-950 text-sm font-bold">
+                Houssem Ghazoueni
+              </h2>
               <h1 className="text-gray-700 text-xl font-thin">
                 {t("represent")}
               </h1>
@@ -83,7 +87,7 @@ function Hotel() {
               />
             </div>
             <div className="flex flex-col items-center">
-              <h2 className="text-blue-950 text-sm font-bold">Jane Doe</h2>
+              <h2 className="text-blue-950 text-sm font-bold">Jasmine Saidi</h2>
               <h1 className="text-gray-700 text-xl font-thin">{t("pharma")}</h1>
             </div>
           </div>
@@ -110,8 +114,8 @@ function Hotel() {
               <div className="h-[25rem] rounded-xl overflow-hidden ">
                 <img
                   loading="lazy"
-                  className="h-full w-full border-gray-300 border-[2px] rounded-xl transition-transform transform object-cover hover:scale-110 cursor-pointer duration-700"
-                  src="https://img.freepik.com/premium-photo/two-doctors-talking-about-file_13339-241675.jpg"
+                  className="h-full w-full border-gray-100 border-[1px] rounded-xl transition-transform transform object-cover hover:scale-110 cursor-pointer duration-700"
+                  src="https://media.istockphoto.com/id/465462879/photo/arab-saudi-doctor-man-posing-happy.jpg?s=612x612&w=0&k=20&c=0mEHK3v-Xi1xllnEEixcfzVgDere5sX_i0AJsG4MB-8="
                   alt="doctors"
                 />
               </div>
@@ -125,7 +129,7 @@ function Hotel() {
               <div className="h-[25rem] rounded-xl overflow-hidden">
                 <img
                   loading="lazy"
-                  className="h-full w-full border-gray-300 border-[2px] rounded-xl transition-transform transform object-cover hover:scale-110 cursor-pointer duration-700"
+                  className="h-full w-full border-gray-100 border-[2px] rounded-xl transition-transform transform object-cover hover:scale-110 cursor-pointer duration-700"
                   src="https://images.pexels.com/photos/4269202/pexels-photo-4269202.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
                   alt="nurces"
                 />
@@ -140,7 +144,7 @@ function Hotel() {
               <div className="h-[25rem] rounded-xl  overflow-hidden">
                 <img
                   loading="lazy"
-                  className="h-full w-full border-gray-300 border-[2px] rounded-xl transition-transform transform object-cover hover:scale-110 duration-700 cursor-pointer"
+                  className="h-full w-full border-gray-100 border-[2px] rounded-xl transition-transform transform object-cover hover:scale-110 duration-700 cursor-pointer"
                   src="https://images.pexels.com/photos/5215017/pexels-photo-5215017.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
                   alt="nurce"
                 />
@@ -155,7 +159,7 @@ function Hotel() {
               <div className="h-[25rem] rounded-xl overflow-hidden">
                 <img
                   loading="lazy"
-                  className="h-full w-full border-gray-300 border-[2px] rounded-xl transition-transform transform object-cover hover:scale-110 duration-700 cursor-pointer"
+                  className="h-full w-full border-gray-100 border-[2px] rounded-xl transition-transform transform object-cover hover:scale-110 duration-700 cursor-pointer"
                   src="https://images.pexels.com/photos/18090671/pexels-photo-18090671/free-photo-of-a-man-wearing-a-swimming-cap-and-goggles.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
                   alt="coach"
                 />
@@ -170,7 +174,7 @@ function Hotel() {
               <div className="h-[25rem] rounded-xl overflow-hidden">
                 <img
                   loading="lazy"
-                  className="h-full w-full border-gray-300 border-[2px] rounded-xl transition-transform transform object-cover hover:scale-110 duration-700 cursor-pointer "
+                  className="h-full w-full border-gray-100 border-[2px] rounded-xl transition-transform transform object-cover hover:scale-110 duration-700 cursor-pointer "
                   src="https://media.istockphoto.com/id/486035912/photo/driving.jpg?s=612x612&w=0&k=20&c=MYTjJcqUgO6KITWUA-IVO6spvem-wBGPXRDXvh3Ty2A="
                   alt="chauffeur"
                 />
@@ -185,7 +189,7 @@ function Hotel() {
               <div className="h-[25rem] rounded-xl overflow-hidden">
                 <img
                   loading="lazy"
-                  className="h-full w-full border-gray-300 border-[2px] rounded-xl transition-transform transform object-cover hover:scale-110 cursor-pointer duration-700"
+                  className="h-full w-full border-gray-100 border-[2px] rounded-xl transition-transform transform object-cover hover:scale-110 cursor-pointer duration-700"
                   src="https://images.pexels.com/photos/5794047/pexels-photo-5794047.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
                   alt="physio"
                 />
@@ -200,8 +204,8 @@ function Hotel() {
               <div className="h-[25rem] rounded-xl overflow-hidden">
                 <img
                   loading="lazy"
-                  className="h-full w-full border-gray-300 border-[2px] rounded-xl transition-transform transform object-cover hover:scale-110 cursor-pointer duration-700"
-                  src="https://plus.unsplash.com/premium_photo-1661375309290-81a388c5417c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1887&q=80"
+                  className="h-full w-full border-gray-100 border-[2px] rounded-xl transition-transform transform object-cover hover:scale-110 cursor-pointer duration-700"
+                  src="https://img.freepik.com/premium-photo/female-doctor-helping-old-woman-with-crutches-nursing-home_482257-22882.jpg?w=360"
                   alt="ortho"
                 />
               </div>
@@ -215,7 +219,7 @@ function Hotel() {
               <div className="h-[25rem] rounded-xl overflow-hidden">
                 <img
                   loading="lazy"
-                  className="h-full w-full border-gray-300 border-[2px] rounded-xl transition-transform transform object-cover hover:scale-110 cursor-pointer duration-700"
+                  className="h-full w-full border-gray-100 border-[2px] rounded-xl transition-transform transform object-cover hover:scale-110 cursor-pointer duration-700"
                   src="https://images.pexels.com/photos/1410235/pexels-photo-1410235.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
                   alt="meals"
                 />
