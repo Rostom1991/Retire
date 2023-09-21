@@ -110,7 +110,7 @@ function Navbar() {
         </Link>
         <div className="flex w-max items-center justify-center gap-1  relative">
           <img className="w-[2rem] text-blue-500" src={call} alt="call" />
-          <a href="tel:+123-456-789">+216-52-530-163</a>
+          <a href="tel:+123-456-789">+216-96-855-131</a>
         </div>
 
         <div className="relative m-auto ">
@@ -244,7 +244,7 @@ function Navbar() {
             </div>
             <div className="flex w-max items-center justify-center gap-1  relative">
               <img className="w-[2rem] text-blue-500" src={call} alt="call" />
-              <span className="">+216-52-530-163</span>
+              <span className="">+216-96-855-131</span>
             </div>
           </ul>
           <section className="w-full mt-2">
