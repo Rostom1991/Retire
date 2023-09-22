@@ -27,7 +27,7 @@ function Contact() {
         console.log(response.data);
         setTimeout(() => {
           setSuccess(true);
-        }, 2000);
+        }, 1000);
         setTimeout(() => {
           setSuccess(false);
         }, 7000);
