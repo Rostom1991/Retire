@@ -10,9 +10,7 @@ i18n
   .init({
     fallbackLng: "en",
     supportedLngs: ["en", "fr", "de"],
-    backend: {
-      loadPath: "/locales/{{lang}}/translation.json", // Path to your translation files
-    },
+
     interpolation: {
       escapeValue: false, // react already safes from xss => https://www.i18next.com/translation-function/interpolation#unescape
     },
